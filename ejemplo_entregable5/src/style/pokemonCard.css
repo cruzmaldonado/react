@@ -1,0 +1,8 @@
+.card{   width:261px;
+    height: 383px;
+    border:10px solid coral
+
+}
+.card__header img{
+    width:80%
+}

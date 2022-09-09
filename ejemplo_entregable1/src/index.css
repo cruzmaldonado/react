@@ -1,0 +1,51 @@
+p ,h2{
+  margin-top:2px;
+  margin-bottom: 3px;
+}
+body{
+  margin: 0;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container{
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px #005;
+  overflow: hidden;
+  width: 300px;
+ }
+.container__img{
+  width: 100%;
+  overflow: hidden;
+}
+.container__info{
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap ;
+  padding-bottom: 5px;
+  margin-top: 2px;
+  margin-bottom: 1px;
+  align-items: center;
+
+}
+.container__btn{
+border-radius: 50%;
+color:white;
+border:0;
+width:35px;
+aspect-ratio: 1;
+font-size: 1rem;
+cursor: pointer;
+box-shadow: 0 0 10px #000;
+}
+.container__btn:hover{
+  box-shadow: 0 0 5px #000;
+  transition: box-shadow 200ms;
+}
